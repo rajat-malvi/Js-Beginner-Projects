@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+}
+.main{
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+}
+.mani h2{
+    text-align: center;
+    font-family: cursive;
+
+}
+input[type='text']{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;   
+    outline: none;
+    font-family: cursive; 
+}
+input[type='submit']{
+    cursor: pointer;
+    padding: 5px;
+}
+.taskcls{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.taskcls button{
+    cursor: pointer;
+    background-color: #fff;
+    padding: 3px;
+    font-size: 11px;
+    border: none;
+}
+.taskcls button:hover{
+    background-color: black;
+    color: #fff;
+}
+.taskcls button:active{
+    background-color: black;
+    color: #fff;
+    font-weight: 800;
+}
+/* clock code */
+.clock{
+    width: 100%;
+    /* height: 300px; */
+    font-weight: bold;
+    font-family:  Verdana, sans-serif;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 100%;
+}
+
+
+/* color plate */
+.color-plate{
+    width: 90%;
+    border: 1px solid black;
+    height: 50%;
+    margin: 0px auto 20px; 
+}
