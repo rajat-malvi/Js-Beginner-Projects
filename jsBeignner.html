@@ -31,28 +31,47 @@
     </style>    
 </head>
 <body>
-    <form action="">
-        <div class="card">
-            <h2>Colour picker</h2>
-            
-                <div class="color-plate">
-                    <!-- <input type="color" name="" id="colorbox"> -->
-                </div>
-                <div class="box">
-                    RGB:
-                    <input type="number" max="255" min="0" name="" id="red" placeholder="R">
-                    <input type="number" max="255" min="0" name="" id="green" placeholder="G">
-                    <input type="number" max="255" min="0" name="" id="blue" placeholder="B">
-                </div>
-                <div class="box">
-                    Hexadecimal:
-                    <input type="text" placeholder="#ffffff" id="hexadecimal-value">
-                </div>
-                <input type="submit" value="Change-Color" id="color-change-btn">
+    <div class="card">
+        <div class="main">
+            <h2>TODO list</h2>
+            <input type="text" name="todotask" id="todo-content" placeholder="add tasks" required>
+            <input type="submit" value="➕" id="submit-btn">
+
+            <div id="todolist"></div>
         </div>
-    </form>
+    </div>
 
+    <div class="card">
+        <div class="clock">
+            <div class="houre-div">00</div>
+            <div>:</div>
+            <div class="minates-div">00</div>
+            <div>:</div>
+            <div class="second-div">00</div>
+        </div>
+    </div>
 
-    <script src="./jsBeignner.js"></script>
+    <div class="card">
+        <h2>Colour picker</h2>
+        
+            <div class="color-plate">
+                <!-- <input type="color" name="" id="colorbox"> -->
+            </div>
+            <div class="box">
+                RGB:
+                <input type="number" max="255" min="0" name="" id="red" placeholder="R">
+                <input type="number" max="255" min="0" name="" id="green" placeholder="G">
+                <input type="number" max="255" min="0" name="" id="blue" placeholder="B">
+            </div>
+            <div class="box">
+                Hexadecimal:
+                <input type="text" placeholder="#ffffff" id="hexadecimal-value">
+            </div>
+            <input type="submit" value="Change-Color" id="color-change-btn">
+    </div>
+
+    <script src="./colorPlate.js"></script>
+    <script src="./clockscript.js"></script>
+    <script src="./toDOScript.js"></script>
 </body>
 </html>
