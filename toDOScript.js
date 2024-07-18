@@ -2,7 +2,8 @@ let submitBtn= document.querySelector("#submit-btn");
         let task= document.querySelector('#todo-content')
         let todolist= document.querySelector('#todolist') 
         
-        submitBtn.addEventListener('click',()=>{
+        submitBtn.addEventListener('click',(e)=>{
+            e.preventDefault();
             console.log('add todo item '+ task.value);
             todolist.appendChild(createNode(task.value));
         })
