@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px ;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: #f7fafc;
+    height: 8vh;
+}
+.logo{
+    font-size: 1.5rem;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+
+}
+
+/* search bar */
+.search-bar{
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+    width: 40vw;
+    height: 6vh;
+    margin: 30vh auto 10vh;
+    overflow: hidden;
+    min-width: 370px;
+}
+
+.search-bar input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 1.2rem;
+    padding: 2px 10px;
+    
+}
+.search-bar button{
+    width: 19%;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+    outline: none;
+    border: none;
+}
+
+/* card */
+.card{
+    width: 20rem;
+    border: 1px solid black;
+    height: 300px;
+    background-color: rgb(255 199 199);
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+.product-img{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+.card .color{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 6px;
+}
+#amazonCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+}
+.card{
+    margin: 10px;
+}
