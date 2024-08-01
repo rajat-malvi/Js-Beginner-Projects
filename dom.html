@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .main{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+
+    <script>
+        let div= document.createElement("div");
+        let textNode= document.createTextNode("lorem epsum fa su la ti");
+        div.innerText=textNode;
+        // div.setAttribute('class')
+        div.classList.add('main')
+        document.querySelector('body').appendChild(div);
+
+    </script>
+</body>
+</html>

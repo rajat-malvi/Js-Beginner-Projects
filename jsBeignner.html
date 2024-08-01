@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- list items -->
+        <div class="card">
+            <ul type="square">
+                <li>intrest calculater-> principle, Intrest rate,year</li>
+                <li>stop watch</li>
+                <li>mony converter</li>
+                <li>wether app</li>
+                <li>Rock, Papeer ,sicer</li>
+                <li>counter</li>
+                <li>colour picker</li>
+                <li>Rendom quotes</li>
+                <li>form input</li>
+                <li>music player</li>
+                <li>Current location access</li>
+            </ul>
+        </div>
+
+        <!-- intrest counter -->
+        <div class="card">
+            <h2>Intrest Calculater</h2>
+            <input type="number" name="" id="">
+            <input type="number" name="" id="">
+            <input type="number" name="" id="">
+            <input type="submit" value="Calculet">
+        </div>
+
+        <!--  counter    -->
+        <div class="card">
+            <h2>count number</h2>
+            <div class="btn-1">
+                <label id="display">0</label>
+                <div>
+                    <button class="btn-1-0" id="sub">-</button>
+                    <button class="btn-1-0" id="reset">reset</button>
+                    <button class="btn-1-0" id="add">+</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- color picker -->
+        <div class="card">
+            <h2>Colour picker</h2>
+                <div class="color-plate">
+                    <input type="color" name="" id="colorbox">
+                </div>
+        </div>
+
+        <!-- Random quotes -->
+        <div class="card">
+            <h2>Redom Quotes Genrator</h2>
+            <div>
+                <div class="flex-box">
+                    <button id="quotes">Genrate</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- form submition -->
+        <div class="form card" style="overflow: scroll;">
+            <form>
+                <div class="form-group">
+                    <label for="text">Text:</label>
+                    <input type="text" id="text" name="text">
+                </div>
+        
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+        
+                <div class="form-group">
+                    <label for="tel">Telephone:</label>
+                    <input type="tel" id="tel" name="tel">
+                </div>
+        
+                <div class="form-group">
+                    <label for="number">Number:</label>
+                    <input type="number" id="number" name="number">
+                </div>
+        
+                <div class="form-group">
+                    <label for="url">URL:</label>
+                    <input type="url" id="url" name="url">
+                </div>
+        
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+        
+                <div class="form-group">
+                    <label for="color">Color:</label>
+                    <input type="color" id="color" name="color">
+                </div>
+        
+                <div class="form-group">
+                    <label for="range">Range:</label>
+                    <input type="range" id="range" name="range" min="0" max="100">
+                </div>
+        
+                <div class="form-group">
+                    <label for="file">File:</label>
+                    <input type="file" id="file" name="file">
+                </div>
+        
+                <div class="form-group">
+                    <label for="textarea">Textarea:</label>
+                    <textarea id="textarea" name="textarea" rows="4"></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="select">Select:</label>
+                    <select id="select" name="select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label>Radio:</label>
+                    <input type="radio" id="radio1" name="radio" value="option1">
+                    <label for="radio1">Option 1</label>
+                    <input type="radio" id="radio2" name="radio" value="option2">
+                    <label for="radio2">Option 2</label>
+                </div>
+        
+                <div class="form-group">
+                    <label>Checkbox:</label>
+                    <input type="checkbox" id="checkbox1" name="checkbox1" value="option1">
+                    <label for="checkbox1">Option 1</label>
+                    <input type="checkbox" id="checkbox2" name="checkbox2" value="option2">
+                    <label for="checkbox2">Option 2</label>
+                </div>
+        
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- music player -->
+        <div class="card">
+            <h4>music player</h4>
+            <div class="player">
+                <img src="" alt="" srcset="" id="avtar-img">
+
+                <br>
+                <a href="" id="music-link">Play</a>
+            </div>
+        </div>
+
+
+    </div>    
+
+    
+    
+    
+    
+    
+    
+    
+    <script src="./js/counter.js"></script>
+    <script src="./js/colorPlate.js"></script>
+    <script src="./js/inputFilds.js"></script>
+    <!-- <script src="./js/music.js"></script> -->
+    <!-- <script src="./js/weather.js"></script> -->
+    <script src="./js/quotesApi.js"></script>
+    
+    <!-- <script>
+        function getlocation(data){
+            console.log(data);
+        }
+
+        navigator.geolocation.getCurrentPosition(getlocation);
+        // console.log("nevigeter" ,navigator);
+        // console.log("nevigetor with geo location    ",navigator.geolocation);
+        navigator.geolocation.watchPosition(getlocation)
+    </script> -->
+</body>
+</html>
